@@ -18,6 +18,8 @@ function button0(){
 }
 function buttonPlus()
 {
+    if(calculus==0 && calculed=='')
+        calculus=parseFloat(screenInfo);
     screenInfo='0';
     document.getElementById('screen').innerHTML=screenInfo;
     calculed='plus';
